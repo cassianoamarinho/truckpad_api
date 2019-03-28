@@ -7,7 +7,6 @@
   
 ### Configuração
   * Na pasta raiz do projeto executar o comando 'pipenv install'
-  * Na pasta raiz do projeto executar o comando 'pipenv run python start.py db init'
   * Na pasta raiz do projeto executar o comando 'pipenv run python start.py db migrate'
   * Na pasta raiz do projeto executar o comando 'pipenv run python start.py db upgrade'
   
@@ -23,8 +22,8 @@
             "name": "Motorista",
             "born_date": "1992-06-29",
             "gender": 2,
-            "has_truck": False,
-            "is_loaded": True,
+            "has_truck": false,
+            "is_loaded": true,
             "cnh_type": "D",
             "truck_type": 4,
             "origin_city": "São Paulo",
