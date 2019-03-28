@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+flask = "*"
+flask-script = "*"
+requests = "*"
+gunicorn = "*"
+pytest = "==3.6.3"
+marshmallow = "==2.*"
+flask-redis = "*"
+flake8 = "*"
+yapf = "*"
+blinker = "*"
+flask-sqlalchemy = "*"
+pymysql = "*"
+flask-migrate = "*"
+sqlalchemy-utils = "*"
+python-dateutil = "*"
+flask-api = "*"
+geopy = "*"
+
+[requires]
+python_version = "3.6"
